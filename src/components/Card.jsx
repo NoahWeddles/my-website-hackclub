@@ -1,13 +1,18 @@
-import { useState } from 'react'
+import { motion } from "motion/react"
 
-function Card({component}) {
+const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
+}
 
+function Card({ component }) {
     return (
-        <>
-            <div className='w-96 h-48 bg-gray-950 outline-4 rounded-xl outline-gray-900 shadow-lg shadow-gray-900'>
-                {component}
-            </div>
-        </>
+        <motion.div
+            variants={cardVariants}
+            className='card w-150 h-80 bg-gray-950 outline-1 rounded-xl outline-gray-900 shadow-md'
+        >
+            {component}
+        </motion.div>
     )
 }
 

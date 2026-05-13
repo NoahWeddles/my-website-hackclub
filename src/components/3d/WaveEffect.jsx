@@ -62,8 +62,6 @@ function Dots({ count = 100, color, fn, speed = 1, radius, period, amplitude}) {
             let y = amplitude*fn(period*phase) * (height / 4)
 
             let screenX = ((rawX % width) + width) % width - width / 2
-
-            // if (mouseDown.current) {
             let dx = mouseWorld ? mouseWorld.x - screenX : 0
             let dy = mouseWorld ? mouseWorld.y - y : 0
 
@@ -74,7 +72,6 @@ function Dots({ count = 100, color, fn, speed = 1, radius, period, amplitude}) {
             let attraction = Math.min(1, 1 / (distance * distance)) / 25
             screenX += Math.cos(angle) * attraction
             y += Math.sin(angle) * attraction
-            // }
 
 
             
@@ -127,7 +124,7 @@ function Scene() {
     )
 }
 
-export default function ThreeDCanvas() {
+export default function WaveEffect() {
     return (
         <Canvas
         camera={{ fov: 30 }} className="bg-transparent">
