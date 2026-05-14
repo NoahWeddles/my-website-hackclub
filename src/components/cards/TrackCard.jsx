@@ -20,11 +20,11 @@ function TrackCard() {
     return (
         <>
             <div className='p-5 text-gray-200 gap-0 font-mono flex flex-col items-start justify-start'>
-                <h1 className='text-lg'>Track and field</h1>
+                <h1 className='text-xl'>Track and field</h1>
                 <hr className=" bg-gray-900 border-gray-900 border w-full mb-5"></hr>
                 <div className='flex items-start justify-start gap 5'>
-                    <div className='text-left text-xs'>
-                        <p>I run distance <b>(8/16)</b> for my high school track and field team. <br /> <i> Running is pretty awesome 🏃‍♂️</i> <br /> <strong>(I'm on the left)</strong></p>
+                    <div className='text-left text-lg'>
+                        <p>I run for my high school track and field team. My favorite event is the 1600 meter race, which I'm running in this image.</p>
                     </div>
                     <motion.img animate={{ x: x, y: y }} className="z-0 w-20 rounded-lg animate-wiggle active:scale-400 hover:border-2 active:animate-none transition-all" src={img} alt="Track Image" />
                 </div>

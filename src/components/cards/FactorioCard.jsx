@@ -10,8 +10,8 @@ function FactorioCard() {
                 <h1 className='text-lg'>Factorio</h1>
                 <hr className=" bg-gray-900 border-gray-900 border w-full mb-5"></hr>
                 <div className='flex items-start justify-between  gap 10'>
-                    <div className='text-left text-xs mr-6'>
-                        <p>I like playing factorio. <br /><strong>(This is my base on my new save)</strong></p>
+                    <div className='text-left text-lg mr-6'>
+                        <p>I like problem solving, which makes factorio a perfect game for me. Factorio involves managing resources and building efficient production systems.</p>
                     </div>
                     <img className="z-0 w-25 rounded-lg animate-wiggle active:scale-400 hover:border-2 active:animate-none transition-all" src={img} alt="Factorio Image" />
                 </div>

@@ -11,7 +11,7 @@ export default function InterestsTitle() {
     return (
         <>
             <motion.h1
-                className='title text-5xl opacity-0 bg-linear-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent'
+                className='title text-5xl font-archivo opacity-0 bg-linear-to-r text-rose-500'
                 initial="hidden"
                 whileInView="visible"
                 variants={titleVariants}

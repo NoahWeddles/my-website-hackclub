@@ -9,7 +9,7 @@ export default function AboutMeTitle() {
 
     return (
         <motion.h1
-            className='title text-5xl opacity-0 bg-linear-to-r from-rose-500 to-indigo-600 bg-clip-text b text-transparent'
+            className='title text-5xl font-archivo opacity-0 bg-linear-to-r from-rose-500 to-indigo-600 bg-clip-text b text-transparent'
             initial="hidden"
             whileInView="visible"
             variants={titleVariants}
