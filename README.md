@@ -1,5 +1,5 @@
 # My Personal Website
-This website acts as a little introduction to who I am and what my personal interests are.
+This website acts as a little introduction to who I am and what my personal interests are. It is also a way for me to practice my web-dev skills, specifically 3JS. I made this because I wanted to have my own personal website.
 
 # How I made it
 - I used React + Tailwind to design most of the website. For the 3D effects and the "Tech-Stack Carousel", I used Three-JS (React Three Fibre)
