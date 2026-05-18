@@ -1,16 +1,9 @@
-# React + Vite
+# My Personal Website
+This website acts as a little introduction to who I am and what my personal interests are.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# How I made it
+- I used React + Tailwind to design most of the website. For the 3D effects and the "Tech-Stack Carousel", I used Three-JS (React Three Fibre)
+- The 3D Wave effect maps points on a sin/cos wave to an instanced sphere mesh with a stagger for the x positions so it creates a cool wave effect. I also modulate the color along the y, and shift the modulation with the time so it creates a breathing-like effect. The tech-stack carousel is just several plane meshes mapped to their respective icons.
+- The title, and other elements in the page were animated with the Motion library.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Made for Hack Club Macondo Event
